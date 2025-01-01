@@ -1,7 +1,7 @@
 # USBWLEDC
 USB Sound Reactive WLED Controller
 
-<img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/animated.gif?raw=true" width="300" height="300" />
+<img src="https://github.com/adilinden-oss/USBWLEDC/blob/adi-main/images/animated.gif?raw=true" width="300" height="300" />
 
 ## Why This Fork?
 
@@ -20,11 +20,11 @@ The included production files were created with KiCAD v8.0.7 and exported using 
 - Files for 3D printed case
 - Front side can be populated by JLCPCB
 
-<img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/usbwledc_front.png?raw=true" width="250" height="300" /> <img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/usbwledc_back.png?raw=true" width="250" height="300" /><img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/usbwledc_real.png?raw=true" width="250" height="300" />
+<img src="https://github.com/adilinden-oss/USBWLEDC/blob/adi-main/images/usbwledc_front.png?raw=true" width="250" height="300" /> <img src="https://github.com/adilinden-oss/USBWLEDC/blob/adi-main/images/usbwledc_back.png?raw=true" width="250" height="300" /><!--<img src="https://github.com/adilinden-oss/USBWLEDC/blob/adi-main/images/usbwledc_real.png?raw=true" width="250" height="300" />-->
 
 ## Case
 
-<img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/usbwledc_case.png?raw=true" width="275" height="375" />
+<img src="https://github.com/adilinden-oss/USBWLEDC/blob/adi-main/images/usbwledc_case.png?raw=true" width="275" height="375" />
 
 ## Entering Flash Mode
 
