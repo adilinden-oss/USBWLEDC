@@ -1,7 +1,13 @@
 # USBWLEDC
 USB Sound Reactive WLED Controller
 
-<img src="https://github.com/NandXor96/USBWLEDC/blob/main/images/animated.gif?raw=true" width="300" height="300" />
+<img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/animated.gif?raw=true" width="300" height="300" />
+
+## Why This Fork?
+
+This is my fork of the [NandXor96/USBWLEDC](https://github.com/NandXor96/USBWLEDC) WLED Controller.  There is a [Reddit post](https://www.reddit.com/r/WLED/comments/1c1dhp0/comment/kz3xn8g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) explaining how to order the (mostly) assembled board from JLCPCB.  Unfortunately, when I went to order it turned out that neither the **GSA4737** nor the (pin compatible?) **SPM1423** were available. Checking parts sources, they appear to be obsolete at this point.  I redesigned the board to support the **ICS-43434** instead, which is a current stocked part (albeit more expensive!).
+
+The included production files were created with KiCAD v8.0.7 and exported using the [KiCAD JLCPCB Tools Plugin](https://github.com/Bouni/kicad-jlcpcb-tools).
 
 ## Features
 
@@ -14,11 +20,11 @@ USB Sound Reactive WLED Controller
 - Files for 3D printed case
 - Front side can be populated by JLCPCB
 
-<img src="https://github.com/NandXor96/USBWLEDC/blob/main/images/usbwledc_front.png?raw=true" width="250" height="300" /> <img src="https://github.com/NandXor96/USBWLEDC/blob/main/images/usbwledc_back.png?raw=true" width="250" height="300" /><img src="https://github.com/NandXor96/USBWLEDC/blob/main/images/usbwledc_real.png?raw=true" width="250" height="300" />
+<img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/usbwledc_front.png?raw=true" width="250" height="300" /> <img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/usbwledc_back.png?raw=true" width="250" height="300" /><img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/usbwledc_real.png?raw=true" width="250" height="300" />
 
 ## Case
 
-<img src="https://github.com/NandXor96/USBWLEDC/blob/main/images/usbwledc_case.png?raw=true" width="275" height="375" />
+<img src="https://github.com/adilinden-oss/USBWLEDC/blob/main/images/usbwledc_case.png?raw=true" width="275" height="375" />
 
 ## Entering Flash Mode
 
@@ -31,9 +37,10 @@ To enter the Flash mode of the USBWLEDC, simply hold down the button as you conn
 | LED Output 1: GPIO | 32 |
 | LED Output 2: GPIO | 33 |
 | Button 0: GPIO | 0 |
-| Digitalmic: Type | Generic I2S PDM |
-| Digitalmic: Pin I2S SD | GPIO 23 |
-| Digitalmic: Pin I2S WS | GPIO 22 |
+| Digitalmic: Type | Generic I2S |
+| Digitalmic: Pin I2S SD  | GPIO 22 |
+| Digitalmic: Pin I2S WS  | GPIO 23 |
+| Digitalmic: Pin I2S SCK | GPIO 21 |
 
 ## BOM
 
@@ -42,9 +49,9 @@ To enter the Flash mode of the USBWLEDC, simply hold down the button as you conn
 |C1*, C2, C4|Capacitor_SMD:C_0603_1608Metric                           |3    |100nF                  |C14663  |
 |C3, C5, C7 |Capacitor_SMD:C_0805_2012Metric                           |3    |10uF                   |C15850  |
 |C6         |Capacitor_SMD:C_0603_1608Metric                           |1    |1uF                    |C15849  |
-|C8         |Capacitor_SMD:CP_Elec_5x5.4                               |1    |100uF                  |C131115 |
+|C8         |Capacitor_SMD:CP_Elec_5x5.4                               |1    |100uF                  |C96182  |
 |J10        |Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV    |1    |USB-C Receptacle       |C2988369|
-|MK1*       |Microphone:Microphone-6pin                                |1    |GSA4737 MEMS Microphone|C5142171|
+|MK1*       |InvenSense_ICS-43434-6_3.5x2.65mm                         |1    |ICS-43434 MEMS Mic     |C2988369|
 |R1*        |Resistor_SMD:R_0603_1608Metric                            |1    |100k                   |C25803  |
 |R2, R3     |Resistor_SMD:R_0603_1608Metric                            |2    |10k                    |C25804  |
 |R4, R5     |Resistor_SMD:R_0603_1608Metric                            |2    |5.1k                   |C23186  |
