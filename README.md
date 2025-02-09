@@ -22,6 +22,12 @@ The included production files were created with KiCAD v8.0.7 and exported using 
 
 <img src="https://github.com/adilinden-oss/USBWLEDC/blob/adi-main/images/usbwledc_front.png?raw=true" width="250" height="300" /> <img src="https://github.com/adilinden-oss/USBWLEDC/blob/adi-main/images/usbwledc_back.png?raw=true" width="250" height="300" /><!--<img src="https://github.com/adilinden-oss/USBWLEDC/blob/adi-main/images/usbwledc_real.png?raw=true" width="250" height="300" />-->
 
+## In Action
+
+Here are two brief video clips of WLED with audio reactive enabled on this board.
+
+[<img src="images/demo_still.jpg" width="48%">](https://youtu.be/NIZeim1se8Q) [<img src="images/another_demo_still.jpg" width="48%">](https://youtu.be/1qbfc3PyaYY)
+
 ## Case
 
 <img src="https://github.com/adilinden-oss/USBWLEDC/blob/adi-main/images/usbwledc_case.png?raw=true" width="275" height="375" />
