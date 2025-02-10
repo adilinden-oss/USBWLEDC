@@ -20,7 +20,9 @@ The included production files were created with KiCAD v8.0.7 and exported using 
 - Files for 3D printed case
 - Front side can be populated by JLCPCB
 
-<img src="images/usbwledc_front.png" width="250" height="300" /> <img src="images/usbwledc_back.png" width="250" height="300" /><!--<img src="images/usbwledc_real.png" width="250" height="300" />-->
+<img src="images/usbwledc_front.png" width="250" height="300" /> <img src="images/usbwledc_back.png" width="250" height="300" />
+
+<img src="images/usbwledc_real_front.jpg" width="250" height="300" /> <img src="images/usbwledc_real_back.jpg" width="250" height="300" />
 
 ## In Action
 
